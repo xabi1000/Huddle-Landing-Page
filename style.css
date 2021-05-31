@@ -1,0 +1,79 @@
+:root {
+    --bg-color: hsl(257, 40%, 49%);
+}
+
+body {
+    background-color: var(--bg-color);
+    background-image: url(/assets/images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+    padding: 21px;
+}
+
+.logo {
+    max-width: 40%;
+    margin-bottom: 41px;
+}
+
+.banner {
+    max-width: 100%;
+}
+
+@media screen and (min-with: 768px) {
+    .main {
+        display: flex;
+    }
+}
+    .article {
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+    .title {
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        margin: 21px 0;
+        padding: 0 15px;
+    }
+
+    .text {
+        font-weight: lighter;
+    }
+
+    .button {
+        text-decoration: none;
+        font-weight: 600;
+        color: var(--bg-color);
+        background-color: aliceblue;
+        padding: 11px 45px;
+        border-radius: 25px;
+        margin: 21px 0 41px 0;
+        display: inline-block;
+        box-shadow: 0 3px 0 3px rgba(0, 0, 0, 0.3);
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .social__items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+
+    .social-link__icon {
+        color: inherit;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    .social__icon {
+        font-size: 25px
+    }
